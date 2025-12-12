@@ -1,0 +1,25 @@
+{
+  "name": "coffeysschoolofmotoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZapGrowth/coffeysschoolofmotoring.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZapGrowth/coffeysschoolofmotoring/issues"
+  },
+  "homepage": "https://github.com/ZapGrowth/coffeysschoolofmotoring#readme",
+  "devDependencies": {
+    "vite": "^7.2.7"
+  }
+}

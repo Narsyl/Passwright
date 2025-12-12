@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Coffey’s School of Motoring</title>
+    <meta
+      name="description"
+      content="Book a driving lesson with Coffey’s School of Motoring. Tell us your location, schedule, and transmission preference."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body data-page="contact">
+    <header class="navbar">
+      <div class="container navbar-inner">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">CS</span>
+          <span>Coffey’s School of Motoring</span>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="lessons.html">Lessons</a>
+          <a href="instructors.html">Instructors</a>
+          <a class="active" href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn secondary" href="lessons.html">How we teach</a>
+          <a class="btn" href="contact.html">Book a lesson</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container split">
+          <div>
+            <span class="eyebrow">Let’s make this easy</span>
+            <h1>Tell us where you are and what feels comfortable.</h1>
+            <p>We’ll pair you with a friendly instructor and confirm times that suit you.</p>
+            <div class="pill-row">
+              <span class="pill">Manual or automatic</span>
+              <span class="pill">Friendly follow-up</span>
+              <span class="pill">Pick-up where you are</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img
+              src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=80"
+              alt="Friendly driving lesson"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <span class="tag">What to expect</span>
+            <h3>Quick, friendly follow-up</h3>
+            <p>
+              We’ll confirm your area, transmission choice, and availability. Nervous driver? Tell us—we’ll keep lessons gentle and paced for you.
+            </p>
+            <div class="grid-3">
+              <div class="badge">Manual & automatic</div>
+              <div class="badge">Evening & weekend slots</div>
+              <div class="badge">Pick-up where you are</div>
+            </div>
+            <ul class="list-plain">
+              <li>Coverage across major UK test centres</li>
+              <li>DVSA-approved, fully insured instructors</li>
+              <li>Dual-control modern vehicles</li>
+            </ul>
+            <div class="socials" style="margin-top: 14px">
+              <a href="https://www.facebook.com/coffeysschoolofmotoring" aria-label="Facebook">F</a>
+              <a href="https://www.instagram.com/coffeysom/" aria-label="Instagram">IG</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3 style="margin-top: 0">Book a lesson</h3>
+            <p style="color: var(--muted)">Share a few details—we’ll get back soon with a friendly plan.</p>
+            <form id="contact-form">
+              <div>
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" placeholder="Alex Smith" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+              <div>
+                <label for="phone">Phone (optional)</label>
+                <input id="phone" name="phone" type="tel" placeholder="07…" />
+              </div>
+              <div>
+                <label for="location">Your area / test centre</label>
+                <input id="location" name="location" type="text" placeholder="Town / test centre (e.g. Leeds, LS1)" required />
+              </div>
+              <div>
+                <label for="transmission">Transmission</label>
+                <select id="transmission" name="transmission" required>
+                  <option value="">Select</option>
+                  <option value="manual">Manual</option>
+                  <option value="automatic">Automatic</option>
+                  <option value="either">Either / advise me</option>
+                </select>
+              </div>
+              <div>
+                <label for="availability">Preferred days/times</label>
+                <input id="availability" name="availability" type="text" placeholder="E.g. Weeknights after 6pm, Saturdays" />
+              </div>
+              <div>
+                <label for="message">Anything else?</label>
+                <textarea id="message" name="message" rows="4" placeholder="Nervous driver, need motorway confidence, etc."></textarea>
+              </div>
+              <div id="contact-success" class="badge" style="display: none">Thanks! We’ll be in touch shortly.</div>
+              <button class="btn" type="submit">Send my details</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-top">
+        <div>
+          <div class="logo">
+            <span class="logo-mark">CS</span>
+            <span>Coffey’s School of Motoring</span>
+          </div>
+          <p>
+            Calm, confidence-first lessons across the UK with DVSA-approved instructors and modern dual-control cars.
+          </p>
+          <div class="socials">
+            <a href="https://www.facebook.com/coffeysschoolofmotoring" aria-label="Facebook">F</a>
+            <a href="https://www.instagram.com/coffeysom/" aria-label="Instagram">IG</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="lessons.html">Lessons</a>
+            <a href="instructors.html">Instructors</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <p style="margin-top: 12px">Manual & automatic • DVSA standards • Flexible scheduling</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
